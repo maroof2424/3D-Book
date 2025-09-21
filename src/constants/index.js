@@ -4,26 +4,31 @@ import {
     creator,
     web,
     javascript,
-    opencv,
+    typescript,
     html,
     css,
     reactjs,
-    tensorflow,
     redux,
     tailwind,
     nodejs,
     mongodb,
     git,
+    figma,
     docker,
     meta,
     starbucks,
     tesla,
-    fastapi,
-    ytvideo,
-    sqlite3,
+    shopify,
     datatool,
     paperai,
-    django,
+    yt,
+    threejs,
+    opencv,
+    sqlite3,
+    langchain,
+    tensorflow,
+    fastapi,
+    django
   } from "../assets";
   
   export const navLinks = [
@@ -32,8 +37,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "tech",
+      title: "Tech",
     },
     {
       id: "contact",
@@ -62,8 +67,8 @@ import {
   
   const technologies = [
     {
-      name: "FastAPI",
-      icon: fastapi,
+      name: "figma",
+      icon: figma,
     },
     {
       name: "MongoDB",
@@ -77,50 +82,52 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Django",
-      icon: django,
-    },
-    {
-      name: "Tensorflow",
-      icon: tensorflow,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Sqlite3",
-      icon: sqlite3,
-    },
+    
+   
+    
     {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "tensorflow",
+      icon: tensorflow,
     },
     {
       name: "docker",
       icon: docker,
     },
+    
     {
-      name: "Computer Vision",
+      name: "opencv",
       icon: opencv,
     },
+    {
+      name: "sqlite3",
+      icon: sqlite3,
+    },
+    {
+      name: "langchain",
+      icon: langchain,
+    },
+    {
+      name: "fastapi",
+      icon: fastapi,
+    },
+    {
+      name: "django",
+      icon: django,
+    },//  opencv,
+    // sqlite3,
+    // langchain,
+    // tensorflow,
+    // fastapi,
+    // django
   ];
   
   const experiences = [
@@ -151,7 +158,19 @@ import {
       "Implemented effective outreach strategies, ensuring vibrant community engagement.",
       ],
     },
-
+    {
+      title: "Founder & CEO",
+      company_name: "Startic Field",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "Jul 2022 - March 2023",
+      points: [
+      "Created an application suite of gamified task management for startups and LP portfolio startup investment tracking.",
+      "Led focussed product development, enhancing user experience and satisfaction.",
+      "Directed agile product development, driving rapid innovation in startup building.",
+      "Devised strategy to expand market reach by leveraging existing customer base.",
+      ],
+    },
     {
       title: "Software Engineer Intern",
       company_name: "PredCo AI",
@@ -196,6 +215,32 @@ import {
   
   const projects = [
     {
+      name: "DataTool",
+      description:
+        "Built a secure data-profiling web app with face authentication (DeepFace + Streamlit WebRTC) and AI-powered insights (Gemini). Added modules for missing value handling, outlier treatment, encoding, scaling, and interactive visualizations with Plotly. Enabled data export in multiple formats.",
+      tags: [
+        
+        {
+          name: "Computer Vision",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "web dev",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Data Science",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Generative AI",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: datatool,
+      source_code_link: "https://github.com/maroof2424/data_tool",
+    },
+    {
       name: "Paper AI",
       description:
         "This project is a Document Question-Answering Web App built with Streamlit and OpenAI’s GPT models. Users can upload text or Markdown files and ask questions in natural language. The app streams AI-powered answers in real-time, enabling fast summarization and knowledge extraction from unstructured text.",
@@ -234,33 +279,8 @@ import {
           color: "orange-text-gradient",
         },
       ],
-      image: ytvideo,
+      image: yt,
       source_code_link: "https://github.com/maroof2424/YouTube-Video-Downloader",
-    },
-    {
-      name: "DataTool",
-      description:
-        "Built a secure data-profiling web app with face authentication (DeepFace + Streamlit WebRTC) and AI-powered insights (Gemini). Added modules for missing value handling, outlier treatment, encoding, scaling, and interactive visualizations with Plotly. Enabled data export in multiple formats.",
-      tags: [
-        {
-          name: "Computer Vision",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "web dev",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Data Science",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Generative AI",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: datatool,
-      source_code_link: "https://github.com/maroof2424/data_tool",
     },
   ];
   

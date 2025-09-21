@@ -9,27 +9,32 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import tensorflow from "./tech/tensorflow.png";
-import tailwind from "./tech/tailwind.png";
-import redux from "./tech/redux.png";
 import opencv from "./tech/opencv.png";
-import django from "./tech/django.png";
 import sqlite3 from "./tech/sqlite3.png";
+import langchain from "./tech/langchain.png";
+import tensorflow from "./tech/tensorflow.png";
+import fastapi from "./tech/fastapi.png";
+import django from "./tech/django.png";
+import reactjs from "./tech/reactjs.png";
+import redux from "./tech/redux.png";
+import tailwind from "./tech/tailwind.png";
+import typescript from "./tech/typescript.png";
+import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import fastapi from "./tech/fastapi.png";
+import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import ytvideo from "./yt-downloader.jpeg";
-import paperai from "./paperai.jpeg";
 import datatool from "./datatool.jpeg";
+import paperai from "./paperai.jpeg";
+import yt from "./yt-downloader.jpeg";
 
 export {
   logo,
@@ -42,23 +47,28 @@ export {
   close,
   css,
   docker,
+  figma,
   git,
   html,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  tensorflow,
   redux,
   tailwind,
-  opencv,
-  django,
-  sqlite3,
+  typescript,
+  threejs,
   meta,
-  fastapi,
+  shopify,
   starbucks,
   tesla,
-  ytvideo,
-  paperai,
   datatool,
+  paperai,
+  yt,
+  opencv,
+  sqlite3,
+  langchain,
+  tensorflow,
+  fastapi,
+  django
 };
